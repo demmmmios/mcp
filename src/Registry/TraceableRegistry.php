@@ -92,6 +92,11 @@ final class TraceableRegistry implements RegistryInterface
 		$this->registry->unregisterPrompt($name);
 	}
 
+	public function publishesListChanges(): bool
+	{
+		return $this->registry->publishesListChanges();
+	}
+
 	public function hasTool(string $name): bool
 	{
 		return $this->registry->hasTool($name);
