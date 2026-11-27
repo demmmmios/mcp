@@ -2,7 +2,7 @@
 
 namespace Tests\Mocks\Mcp;
 
-use Mcp\Capability\Attribute\McpResource;
+use Mcp\Server\Capability\Attribute\McpResource;
 
 final class FileResource
 {

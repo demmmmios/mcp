@@ -7,8 +7,8 @@ use Contributte\Mcp\Registry\TraceableRegistry;
 use Contributte\Tester\Toolkit;
 use Contributte\Tester\Utils\ContainerBuilder;
 use Contributte\Tester\Utils\Neonkit;
-use Mcp\Capability\Registry;
-use Mcp\Capability\RegistryInterface;
+use Mcp\Server\Capability\Registry;
+use Mcp\Server\Capability\RegistryInterface;
 use Nette\DI\Compiler;
 use Tester\Assert;
 

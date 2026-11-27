@@ -4,8 +4,8 @@ namespace Tests\Cases\Server;
 
 use Contributte\Mcp\Server\ServerFactory;
 use Contributte\Tester\Toolkit;
-use Mcp\Server;
 use Mcp\Server\Builder;
+use Mcp\Server\Server;
 use Mcp\Server\Transport\InMemoryTransport;
 use Tester\Assert;
 

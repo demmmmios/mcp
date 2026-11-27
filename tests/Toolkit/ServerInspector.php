@@ -2,11 +2,10 @@
 
 namespace Tests\Toolkit;
 
-use Mcp\Capability\RegistryInterface;
 use Mcp\Schema\Prompt;
 use Mcp\Schema\ResourceDefinition;
 use Mcp\Schema\Tool;
-use Mcp\Server;
+use Mcp\Server\Capability\RegistryInterface;
 use Mcp\Server\Configuration;
 use Mcp\Server\Handler\Request\InitializeHandler;
 use Mcp\Server\Handler\Request\ListPromptsHandler;
@@ -14,6 +13,7 @@ use Mcp\Server\Handler\Request\ListResourcesHandler;
 use Mcp\Server\Handler\Request\ListToolsHandler;
 use Mcp\Server\Handler\Request\RequestHandlerInterface;
 use Mcp\Server\Protocol;
+use Mcp\Server\Server;
 use ReflectionProperty;
 
 final class ServerInspector

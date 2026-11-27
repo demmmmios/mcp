@@ -2,8 +2,8 @@
 
 namespace Contributte\Mcp\Server;
 
-use Mcp\Server;
 use Mcp\Server\Builder;
+use Mcp\Server\Server;
 
 final class ServerFactory
 {

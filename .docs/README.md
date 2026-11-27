@@ -266,7 +266,7 @@ Tools are methods that can be called by MCP clients. Use the `#[McpTool]` attrib
 
 namespace App\Mcp;
 
-use Mcp\Capability\Attribute\McpTool;
+use Mcp\Server\Capability\Attribute\McpTool;
 
 final class CalculatorTool
 {
@@ -291,7 +291,7 @@ You can also use the attribute on a class with an `__invoke` method:
 
 namespace App\Mcp;
 
-use Mcp\Capability\Attribute\McpTool;
+use Mcp\Server\Capability\Attribute\McpTool;
 
 #[McpTool(name: 'weather', description: 'Get current weather for a location')]
 final class WeatherTool
@@ -313,7 +313,7 @@ Resources provide data that MCP clients can read. Use the `#[McpResource]` attri
 
 namespace App\Mcp;
 
-use Mcp\Capability\Attribute\McpResource;
+use Mcp\Server\Capability\Attribute\McpResource;
 
 final class ConfigResource
 {
@@ -340,7 +340,7 @@ Resource templates define URI patterns with placeholders. Use the `#[McpResource
 
 namespace App\Mcp;
 
-use Mcp\Capability\Attribute\McpResourceTemplate;
+use Mcp\Server\Capability\Attribute\McpResourceTemplate;
 
 final class UserResource
 {
@@ -362,7 +362,7 @@ Prompts are predefined templates that MCP clients can use. Use the `#[McpPrompt]
 
 namespace App\Mcp;
 
-use Mcp\Capability\Attribute\McpPrompt;
+use Mcp\Server\Capability\Attribute\McpPrompt;
 
 final class CodePrompts
 {
@@ -390,7 +390,7 @@ All discovered MCP classes support dependency injection through the Nette DI con
 namespace App\Mcp;
 
 use App\Model\UserRepository;
-use Mcp\Capability\Attribute\McpTool;
+use Mcp\Server\Capability\Attribute\McpTool;
 
 final class UserTool
 {
@@ -534,7 +534,7 @@ mcp:
 // src/Mcp/CalculatorTool.php
 namespace App\Mcp;
 
-use Mcp\Capability\Attribute\McpTool;
+use Mcp\Server\Capability\Attribute\McpTool;
 
 final class CalculatorTool
 {

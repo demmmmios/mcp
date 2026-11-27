@@ -2,7 +2,7 @@
 
 namespace Tests\Mocks\Mcp;
 
-use Mcp\Capability\Attribute\McpPrompt;
+use Mcp\Server\Capability\Attribute\McpPrompt;
 
 final class GreetingPrompt
 {

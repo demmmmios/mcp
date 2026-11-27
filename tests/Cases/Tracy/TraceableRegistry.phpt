@@ -4,10 +4,10 @@ namespace Tests\Cases\Tracy;
 
 use Contributte\Mcp\Registry\TraceableRegistry;
 use Contributte\Tester\Toolkit;
-use Mcp\Capability\Registry;
-use Mcp\Capability\RegistryInterface;
 use Mcp\Schema\Page;
 use Mcp\Schema\Tool;
+use Mcp\Server\Capability\Registry;
+use Mcp\Server\Capability\RegistryInterface;
 use Tester\Assert;
 
 require_once __DIR__ . '/../../bootstrap.php';

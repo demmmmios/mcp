@@ -3,8 +3,8 @@
 namespace Tests\Cases\Server;
 
 use Contributte\Tester\Toolkit;
-use Mcp\Server;
 use Mcp\Server\Configuration;
+use Mcp\Server\Server;
 use Tester\Assert;
 use Tests\Toolkit\ServerInspector;
 
